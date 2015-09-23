@@ -15,6 +15,7 @@
 
 ;;; Code:
 
+(require 'use-package)
 (require 'bind-key)
 (require 'key-chord)
 
