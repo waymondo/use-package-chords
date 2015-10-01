@@ -6,7 +6,7 @@
 ;; Keywords: convenience, tools, extensions
 ;; URL: https://github.com/waymondo/use-package-chords
 ;; Version: 0.1
-;; Package-Requires: ((use-package "2.0") (bind-key "1.0") (key-chord "0.6") (bind-chord "0.1"))
+;; Package-Requires: ((use-package "2.0") (bind-key "1.0") (bind-chord "0.1"))
 ;; Filename: use-package-chords.el
 ;;
 
