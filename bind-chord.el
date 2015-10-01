@@ -1,13 +1,13 @@
-;;; bind-chords.el --- key-chord binding helper for use-package-chords
+;;; bind-chord.el --- key-chord binding helper for use-package-chords
 
 ;; Copyright (C) 2015 justin talbott
 
 ;; Author: justin talbott <justin@waymondo.com>
 ;; Keywords: convenience, tools, extensions
 ;; URL: https://github.com/waymondo/use-package-chords
-;; Version: 0.0.1
+;; Version: 0.1
 ;; Package-Requires: ((bind-key "1.0") (key-chord "0.6"))
-;; Filename: bind-chords.el
+;; Filename: bind-chord.el
 ;;
 
 ;;; Commentary:
@@ -55,5 +55,5 @@ function symbol (unquoted)."
                   `((bind-chord ,(car form) ',(cdr form)))))
               key-bindings)))))
 
-(provide 'bind-chords)
-;;; bind-chords.el ends here
+(provide 'bind-chord)
+;;; bind-chord.el ends here
