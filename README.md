@@ -3,7 +3,7 @@ support for [`use-package`](https://github.com/jwiegley/use-package).
 
 ## Installation and Usage
 
-Recommended install from [MELPA](melpa.milkbox.net) with `M-x
+Recommended install from [MELPA](https://melpa.org/) with `M-x
 package-install use-package-chords`. Then require it after `use-package`, i.e.:
 
 ``` elisp
