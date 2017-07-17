@@ -8,6 +8,7 @@
 ;; Version: 0.2
 ;; Package-Requires: ((use-package "2.1") (bind-key "1.0") (bind-chord "0.2") (key-chord "0.6"))
 ;; Filename: use-package-chords.el
+;; License: GNU General Public License version 3, or (at your option) any later version
 ;;
 
 ;;; Commentary:
