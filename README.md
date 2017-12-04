@@ -1,3 +1,10 @@
+# Deprecated
+
+This extension now resides within the official
+[`use-package`](https://github.com/jwiegley/use-package) distribution.
+
+---
+
 [`key-chord`](http://www.emacswiki.org/emacs/key-chord.el) keyword
 support for [`use-package`](https://github.com/jwiegley/use-package).
 
