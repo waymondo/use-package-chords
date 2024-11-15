@@ -1,12 +1,5 @@
-# Deprecated
-
-This extension now resides within the official
-[`use-package`](https://github.com/jwiegley/use-package) distribution.
-
----
-
-[`key-chord`](http://www.emacswiki.org/emacs/key-chord.el) keyword
-support for [`use-package`](https://github.com/jwiegley/use-package).
+[`key-chord`](http://www.emacswiki.org/emacs/key-chord.el) keyword support for `use-package` that is
+built into Emacs.
 
 ## Installation and Usage
 
@@ -14,9 +7,10 @@ Recommended install from [MELPA](https://melpa.org/) with `M-x
 package-install use-package-chords`. Then require it after `use-package`, i.e.:
 
 ``` elisp
-(eval-when-compile
-  (require 'use-package))
+(require 'use-package)
+
 (use-package use-package-chords
+  :demand t
   :config (key-chord-mode 1))
 ```
 
@@ -25,7 +19,8 @@ as `:bind` and related keywords, using a cons or a list of conses:
 
 ``` elisp
 (use-package ace-jump-mode
-  :chords (("jj" . ace-jump-char-mode)
-           ("jk" . ace-jump-word-mode)
-           ("jl" . ace-jump-line-mode)))
+  :chords
+  ("jj" . ace-jump-char-mode)
+  ("jk" . ace-jump-word-mode)
+  ("jl" . ace-jump-line-mode))
 ```
